@@ -3,14 +3,14 @@ import Header from "./components/Header";
 import { Routes, Route } from "react-router-dom";
 import Section from "./components/Section";
 import { Data } from "./Data";
-import './App.scss'
+import "./App.scss";
 
 const App = () => {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Section slides={Data}/>} />
+        <Route path="/" element={<Section slides={Data} />} />
       </Routes>
     </>
   );
