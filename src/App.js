@@ -5,6 +5,7 @@ import Section from "./components/Section";
 import { Data } from "./Data";
 import "./App.scss";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<Section slides={Data} />} />
       </Routes>
       <Gallery />
+      <Footer />
     </>
   );
 };
