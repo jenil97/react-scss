@@ -6,6 +6,7 @@ import { Data } from "./Data";
 import "./App.scss";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Section slides={Data} />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
       <Gallery />
       <Footer />
