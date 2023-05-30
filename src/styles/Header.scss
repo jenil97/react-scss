@@ -5,6 +5,7 @@
 .header {
     position: absolute;
     width: 100%;
+    z-index: 100;
 }
 
 .nav-container {
@@ -18,7 +19,7 @@
 
     .menu-icon {
         font-size: 50px;
-        color: $header-color;
+        color: $main-color;
         cursor: pointer;
         margin-left: 1rem;
     }
@@ -27,6 +28,7 @@
 .logo {
     h1 {
         margin-left: 1rem;
+        color: $main-color;
     }
 }
 
@@ -37,7 +39,8 @@
 
     li a {
         text-decoration: none;
-        color: $header-color;
-        margin: 1rem;
+        color: $main-color;
+        margin: 2rem;
+        text-transform: uppercase;
     }
 }
