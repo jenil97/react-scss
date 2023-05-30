@@ -78,5 +78,12 @@ section {
         margin: 1rem;
         cursor: pointer;
         font-weight: bolder;
+
+        &:hover {
+            background-color: $main-color;
+            color: $header-color;
+            transform: scale(120%);
+            transition: 1s ease-in;
+        }
     }
 }
