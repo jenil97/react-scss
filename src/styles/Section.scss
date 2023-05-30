@@ -4,13 +4,12 @@
 
 section {
     height: 90vh;
-    margin: 15px;
     overflow: hidden;
     font-family: $font-poppins;
 }
 
 .slide {
-    @include flex-center;
+    align-items: center;
     justify-content: center;
     width: 100%;
     position: relative;
@@ -18,7 +17,7 @@ section {
 
 .slides {
     img {
-        width: 1500px;
+        width: 100%;
         height: 90vh;
         object-fit: cover;
     }
@@ -28,16 +27,16 @@ section {
         font-size: 5rem;
         color: $main-color;
         left: 10%;
-        top: 25%;
+        top: 31%;
         color: $main-color;
         font-weight: 900;
         text-shadow: 10px 0px 30px $header-color;
     }
     .status {
         position: absolute;
-        top: 52%;
+        top: 50%;
         left: 10%;
-        font-size: 20px;
+        font-size: 1.2rem;
         color: $main-color;
     }
 
@@ -52,6 +51,7 @@ section {
 .back {
     position: absolute;
     left: 2%;
+    top: 55%;
     color: $main-color;
     cursor: pointer;
 }
@@ -59,6 +59,7 @@ section {
 .forward {
     position: absolute;
     right: 2%;
+    top: 55%;
     color: $main-color;
     cursor: pointer;
 }
